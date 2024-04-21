@@ -32,7 +32,7 @@ with open ("classlist.txt") as my_file:
 max(student_grade)
 
 #join the the lists containing the full name of the students and the grade of the students
-
+class_list.extend([list(a) for a in zip(student_name,student_grade)])
 
 #display message for the students
 
