@@ -6,7 +6,7 @@
 
 
 #import modules for display purposes
-
+import pyfiglet
 
 #list variables
 
