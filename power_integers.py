@@ -6,7 +6,7 @@
 #the second file will be named triple.txt containing the sube of all odd numbers found in the integers.txt
 
 #import modules
-
+import math
 
 #list variables
 
