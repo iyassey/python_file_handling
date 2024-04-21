@@ -10,7 +10,7 @@ while True:
     message = ""
 
 #ask the user for the number of lines
-
+    number_of_lines = int(input("Enter a value: "))
 
 #let the user enter their message
 
