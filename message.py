@@ -13,7 +13,8 @@ while True:
     number_of_lines = int(input("Enter a value: "))
 
 #let the user enter their message
-
+    for lines in range(number_of_lines):
+        message += input () + "\n"
 
 #create a text file mylife.txt
 
