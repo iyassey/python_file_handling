@@ -17,7 +17,8 @@ while True:
         message += input () + "\n"
 
 #create a text file mylife.txt
-
+    with open ("mylife.txt", "a") as message_file:
+        message_file.write(message)
 
 #ask the user if they want to try again
 
