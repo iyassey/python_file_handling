@@ -35,7 +35,9 @@ max(student_grade)
 class_list.extend([list(a) for a in zip(student_name,student_grade)])
 
 #display message for the students
-
+message = "Congratulations!"
+message = (pyfiglet.figlet_format(message, font='invita'))
+print(message)
 
 #determine which student/s got the highest grade
 
