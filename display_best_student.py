@@ -24,7 +24,9 @@ with open ("classlist.txt") as my_file:
         student_name.append(student_full_name)
 
 #extract the grades of the students
-
+        student_grades = student[-4:]
+        student_grades = int(student_grades)
+        student_grade.append(student_grades)
 
 #determine the highest grade among the 20 students
 
