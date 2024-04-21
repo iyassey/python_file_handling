@@ -29,7 +29,7 @@ with open ("classlist.txt") as my_file:
         student_grade.append(student_grades)
 
 #determine the highest grade among the 20 students
-
+max(student_grade)
 
 #join the the lists containing the full name of the students and the grade of the students
 
