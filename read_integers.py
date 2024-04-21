@@ -24,7 +24,8 @@ with open ("numbers.txt") as my_file:
             odd_list.append(numbers)
 
 #create a new text file for even numbers
-
+with open ("even.txt", "a") as even_file:
+    even_file.write(str(even_list))
 
 #create a new text file for odd numbers
 
