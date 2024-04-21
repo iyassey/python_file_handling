@@ -38,7 +38,8 @@ for cube in odd_list:
     cube_list.append(cube)
 
 #create a new text file for square numbers
-
+with open ("double.txt","a") as square_file:
+    square_file.write(str(square_list))
 
 #create a new text file for cube numbers
 
