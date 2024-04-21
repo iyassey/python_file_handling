@@ -45,4 +45,5 @@ with open ("double.txt","a") as square_file:
 with open ("triple.txt" , "a") as cube_file:
     cube_file.write(str(cube_list))
 
+print("Text file double.txt and triple.txt was created successfully!")
 #this is the end of the program
