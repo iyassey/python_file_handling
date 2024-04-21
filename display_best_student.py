@@ -40,7 +40,8 @@ message = (pyfiglet.figlet_format(message, font='invita'))
 print(message)
 
 #determine which student/s got the highest grade
-
+for best_student in class_list:
+    if best_student[:][1] == max(student_grade):
 
 #display the sstudent/s who got the highest grade
 
