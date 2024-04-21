@@ -43,7 +43,7 @@ print(message)
 for best_student in class_list:
     if best_student[:][1] == max(student_grade):
 
-#display the sstudent/s who got the highest grade
+#display the student/s who got the highest grade
         print(best_student)
-        
+
 #this is the end of the program
