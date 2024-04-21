@@ -42,6 +42,7 @@ with open ("double.txt","a") as square_file:
     square_file.write(str(square_list))
 
 #create a new text file for cube numbers
-
+with open ("triple.txt" , "a") as cube_file:
+    cube_file.write(str(cube_list))
 
 #this is the end of the program
