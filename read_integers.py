@@ -7,7 +7,8 @@
 #the second text file will be named odd.txt that will contain all odd numbers extracted from numbers.txt
 
 #list variables
-
+even_list = []
+odd_list= []
 
 #read the text file numbers.txt
 
