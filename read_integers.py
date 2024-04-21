@@ -11,7 +11,7 @@ even_list = []
 odd_list= []
 
 #read the text file numbers.txt
-
+with open ("numbers.txt") as my_file:
 
 #read every line of the text file numbers.txt & convert string to integer
 
