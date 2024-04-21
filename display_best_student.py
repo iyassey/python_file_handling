@@ -20,7 +20,8 @@ with open ("classlist.txt") as my_file:
     for student in my_file:
 
 #extract the full name of the students
-
+        student_full_name = student[:-4]
+        student_name.append(student_full_name)
 
 #extract the grades of the students
 
