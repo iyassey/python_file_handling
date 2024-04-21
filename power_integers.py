@@ -28,10 +28,14 @@ with open ("integers.txt") as my_file:
             odd_list.append(numbers)
 
 #get the square value of the even numbers from integers.txt
-
+for square in even_list:
+    square = pow(square,2)
+    square_list.append(square)
 
 #get the cube value of the odd numbers from integers.txt
-
+for cube in odd_list:
+    cube = pow(cube,3)
+    cube_list.append(cube)
 
 #create a new text file for square numbers
 
