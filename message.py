@@ -21,7 +21,10 @@ while True:
         message_file.write(message)
 
 #ask the user if they want to try again
-
-
+    answer = input("Do you want to try again? ")
+    if answer == "yes":
+        continue
+    elif answer == "no":
+        break
 
 #this is the end of the program!
