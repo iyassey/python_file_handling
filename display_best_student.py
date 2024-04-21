@@ -14,7 +14,7 @@ student_grade = []
 class_list = []
 
 #read text file classlist.txt 
-
+with open ("classlist.txt") as my_file:
 
 #read every line of the text file classlist.txt
 
