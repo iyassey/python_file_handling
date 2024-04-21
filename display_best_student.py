@@ -9,7 +9,9 @@
 import pyfiglet
 
 #list variables
-
+student_name = []
+student_grade = []
+class_list = []
 
 #read text file classlist.txt 
 
