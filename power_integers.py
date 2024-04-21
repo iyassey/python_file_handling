@@ -9,7 +9,10 @@
 import math
 
 #list variables
-
+even_list = []
+square_list = []
+odd_list = []
+cube_list = []
 
 #read the text file integers.txt
 
