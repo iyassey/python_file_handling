@@ -7,7 +7,7 @@
 while True:
 
 #variable for the input
-
+    message = ""
 
 #ask the user for the number of lines
 
