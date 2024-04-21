@@ -17,7 +17,7 @@ class_list = []
 with open ("classlist.txt") as my_file:
 
 #read every line of the text file classlist.txt
-
+    for student in my_file:
 
 #extract the full name of the students
 
