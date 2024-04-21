@@ -15,7 +15,7 @@ odd_list = []
 cube_list = []
 
 #read the text file integers.txt
-
+with open ("integers.txt") as my_file:
 
 #read every line of the text file integers.txt and convert from string to integers
 
