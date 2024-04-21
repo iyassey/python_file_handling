@@ -4,7 +4,7 @@
 #this program will write multiple line of text contents into a text file mylife.txt
 
 #initialize a loop
-
+while True:
 
 #variable for the input
 
