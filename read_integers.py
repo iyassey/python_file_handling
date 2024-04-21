@@ -18,7 +18,10 @@ with open ("numbers.txt") as my_file:
         numbers = int(number)
 
 #determine if the numbers are even or odd
-
+        if numbers % 2 == 0:
+            even_list.append(numbers)
+        elif numbers % 2 != 0:
+            odd_list.append(numbers)
 
 #create a new text file for even numbers
 
