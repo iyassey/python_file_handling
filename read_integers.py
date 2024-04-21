@@ -31,4 +31,5 @@ with open ("even.txt", "a") as even_file:
 with open ("odd.txt", "a") as odd_file:
     odd_file.write(str(odd_list))
 
+print("Text files even.txt and odd.txt are created succcessfully")
 #this is the end of the program
