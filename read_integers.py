@@ -14,7 +14,8 @@ odd_list= []
 with open ("numbers.txt") as my_file:
 
 #read every line of the text file numbers.txt & convert string to integer
-
+    for number in my_file:
+        numbers = int(number)
 
 #determine if the numbers are even or odd
 
