@@ -18,7 +18,8 @@ cube_list = []
 with open ("integers.txt") as my_file:
 
 #read every line of the text file integers.txt and convert from string to integers
-
+    for number in my_file:
+        numbers = int(number)
 
 #determine if the numbers are even or odd
 
